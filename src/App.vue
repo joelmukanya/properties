@@ -1,14 +1,20 @@
 <template>
-  <h1 class="display-1">App Component</h1>
+  <HeaderComponent />
+  <MainComponent />
+  <FooterComponent />
 </template>
 
 <script>
-// import NavComponent from './components/Navigation.vue'
+import HeaderComponent from './components/HeaderComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
+import MainComponent from './components/MainComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    // NavComponent
+    HeaderComponent,
+    FooterComponent,
+    MainComponent,
   }
 }
 </script>

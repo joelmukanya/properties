@@ -1,0 +1,136 @@
+{
+    "properties": [
+        {
+            "id": 1,
+            "type": "House",
+            "location": "Cape Town",
+            "address": "47 Strand Street, CBD",
+            "picture": "https://i.postimg.cc/Kvwq5cDw/property1.jpg",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "garage": 3,
+            "price": 20000
+        },
+        {
+            "id": 2,
+            "type": "Hotel",
+            "location": "Sea Point",
+            "address": "4 Alexander Road, Bantry Bay, Sea Point, Cape Town",
+            "picture": "https://i.postimg.cc/cCjmTTww/property10.jpg",
+            "bedrooms": 80,
+            "bathrooms": 90,
+            "garage": 100,
+            "price": 100000
+        },
+        {
+            "id": 3,
+            "type": "Residential",
+            "location": "Plumstead",
+            "address": "4 Main road, Plumstead",
+            "picture": "https://i.postimg.cc/Prgyw3tk/property11.jpg",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "garage": 1,
+            "price": 8000
+        },
+        {
+            "id": 4,
+            "type": "House",
+            "location": "Strand",
+            "address": "47 Fagan Street",
+            "picture": "https://i.postimg.cc/4ynPzj7X/property12.jpg",
+            "bedrooms": 5,
+            "bathrooms": 4,
+            "garage": 3,
+            "price": 100000
+        },
+        {
+            "id": 5,
+            "type": "Hotel",
+            "location": "Somerset West",
+            "address": "Corner of Broadway Boulevards and, Main Rd",
+            "picture": "https://i.postimg.cc/G3Sqc3Vt/property2.jpg",
+            "bedrooms": 80,
+            "bathrooms": 90,
+            "garage": 100,
+            "price": 100000
+        },
+        {
+            "id": 6,
+            "type": "Residential",
+            "location": "CBD",
+            "address": "97 Plein Street, Cape Town",
+            "picture": "https://i.postimg.cc/xCftdX9J/property3.webp",
+            "bedrooms": 5,
+            "bathrooms": 3,
+            "garage": 4,
+            "price": 50000
+        },
+        {
+            "id": 7,
+            "type": "House",
+            "location": "Cape Town",
+            "address": "47 Strand Street, CBD",
+            "picture": "https://i.postimg.cc/RFgGJv0P/property4.jpg",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "garage": 3,
+            "price": 20000
+        },
+        {
+            "id": 8,
+            "type": "Hotel",
+            "location": "Sea Point",
+            "address": "4 Alexander Road, Bantry Bay, Sea Point, Cape Town",
+            "picture": "https://i.postimg.cc/8CDby7JK/property5.jpg",
+            "bedrooms": 80,
+            "bathrooms": 90,
+            "garage": 100,
+            "price": 100000
+        },
+        {
+            "id": 9,
+            "type": "Residential",
+            "location": "Plumstead",
+            "address": "4 Main road, Plumstead",
+            "picture": "https://i.postimg.cc/q7d19mYG/property6.jpg",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "garage": 1,
+            "price": 8000
+        },
+        {
+            "id": 10,
+            "type": "Bachelor",
+            "location": "Plumstead",
+            "address": "12 Main Road, Plumstead",
+            "picture": "https://i.postimg.cc/hGb2gLRR/property7.jpg",
+            "bedrooms": 1,
+            "bathrooms": 2,
+            "garage": 1,
+            "price": 3000
+        },
+        {
+            "id": 11,
+            "type": "Bachelor",
+            "location": "Century City",
+            "address": "200 Century Blvd, Century City",
+            "picture": "https://i.postimg.cc/m2zVhfWw/property8.jpg",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "garage": 1,
+            "price": 5000
+        },
+        {
+            "id": 12,
+            "type": "Mansion",
+            "location": "Gordon's Bay",
+            "address": "45 Well Street, Cape Town",
+            "picture": "https://i.postimg.cc/zGTjSCBH/property9.jpg",
+            "bedrooms": 10,
+            "bathrooms": 8,
+            "garage": 7,
+            "price": 123000
+        }
+    ]
+}
