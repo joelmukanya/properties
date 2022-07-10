@@ -5,7 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
+#header {
+    z-index: 20;
+}
 /* root : define some custom variables*/
 :root {
     
+}
+
+/* Devices with 600px or less are targeted.  */
+@media screen and (max-width: 600px) {
+    .container-md {
+        margin: 0;
+        width: 100%;
+        background-color: darkcyan; 
+    }
 }

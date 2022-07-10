@@ -1,4 +1,4 @@
-<template>
+<template >
   <HeaderComponent />
   <MainComponent />
   <FooterComponent />

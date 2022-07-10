@@ -1,5 +1,5 @@
 <template>
-    <div class="container-flud min-vh-100 my-3 ms-4">
+    <div class="container-md min-vh-100 my-3">
         <h2 class="display-2 text-center"> {{ title }}</h2>
         <div class="row d-flex flex-wrap justify-content-around">
             <div 
