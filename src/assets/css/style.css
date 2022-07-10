@@ -19,7 +19,13 @@
     /* background-color: var(--primaryBgColor); */
     z-index: 20;
 }
-
+/* nav-link */
+.nav-link {
+    color: var(--primaryFontColor);
+}
+.nav-link:hover {
+    box-shadow: var(--boxShadow);
+}
 /* On scroll, change the background color of the header component.*/
 .headerBgColor {
     background-color: var(--primaryBgColor);
