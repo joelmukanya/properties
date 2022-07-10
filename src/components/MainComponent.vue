@@ -1,7 +1,7 @@
 <template>
     <div class="container-md min-vh-100 my-3">
         <h2 class="display-2 text-center p-3"> {{ title }}</h2>
-        <div class="row d-flex flex-wrap justify-content-around">
+        <div class="row d-flex flex-wrap justify-content-around" v-if="properties.length">
             <div 
                 v-for="(property, index) in properties" :key="index"  class="card my-2" 
                 style="width: 18rem;">
@@ -14,7 +14,9 @@
                 </div>
             </div>
         </div>
-
+        <div v-else>
+            <p class="lead">Sorry, we are still loading the data....</p>
+        </div>
     </div>
 </template>
 
