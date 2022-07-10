@@ -1,4 +1,13 @@
 /* =========== Global CSS ============ */
+/* root : define some custom variables*/
+:root {
+    --grayBgColor: rgba(93, 97, 100, .4);
+    --boxShadow: 2vw 2vw 2vw rgba(137, 146, 144, 0.5); 
+    --primaryFontColor: white;
+    --secFontColor: dark;
+    --primaryBgColor: black;
+    --secondaryBgColor: rgba(82, 80, 80, .8); 
+}
 /* Select all elements */
 *{
     margin: 0;
@@ -7,13 +16,17 @@
 }
 /* header */
 #header {
+    /* background-color: var(--primaryBgColor); */
     z-index: 20;
 }
-/* root : define some custom variables*/
-:root {
-    
-}
 
+/* On scroll, change the background color of the header component.*/
+.headerBgColor {
+    background-color: var(--primaryBgColor);
+    box-shadow: var(--boxShadow);
+    color: var(--primaryFontColor);
+    opacity: .7;
+}
 /* Devices with 600px or less are targeted.  */
 @media screen and (max-width: 600px) {
     .container-md {

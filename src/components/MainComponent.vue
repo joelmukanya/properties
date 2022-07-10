@@ -1,6 +1,6 @@
 <template>
     <div class="container-md min-vh-100 my-3">
-        <h2 class="display-2 text-center"> {{ title }}</h2>
+        <h2 class="display-2 text-center p-3"> {{ title }}</h2>
         <div class="row d-flex flex-wrap justify-content-around">
             <div 
                 v-for="(property, index) in properties" :key="index"  class="card my-2" 
@@ -28,7 +28,8 @@
         },
         async mounted() {
             // Making use of async 
-            let res = await fetch('http://localhost:3000/properties');
+            let res = await fetch('http://localhost:3000/properties').
+            catch(e => console.log(e.message));
             let data = await res.json(); 
             this.properties = data;
         }
