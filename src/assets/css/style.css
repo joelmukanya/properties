@@ -33,6 +33,11 @@
     color: var(--primaryFontColor);
     opacity: .7;
 }
+/* Table > img */
+table img {
+    width: 20vw;
+    object-fit: cover;
+}
 /* Devices with 600px or less are targeted.  */
 @media screen and (max-width: 600px) {
     .container-md {
@@ -40,4 +45,5 @@
         width: 100%;
         background-color: darkcyan; 
     }
+    /* table */
 }

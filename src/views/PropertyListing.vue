@@ -34,6 +34,7 @@
             catch(e => console.log(e.message));
             let data = await res.json(); 
             this.properties = data;
+            console.log(data);
         }
     }
 </script>

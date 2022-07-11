@@ -1,6 +1,6 @@
 // Setup the different route
 import { createRouter, createWebHistory } from 'vue-router'
-import PropertyListing from '../components/PropertyListing.vue'
+import PropertyListing from '../views/PropertyListing.vue'
 
 const routes = [
     {
@@ -12,7 +12,7 @@ const routes = [
         path: '/admin',
         name: 'Admin',
         // Lazy-loaded
-        component: ()=>import('../components/AdminComponent.vue')
+        component: ()=>import('../views/AdminComponent.vue')
     }
 ];
 

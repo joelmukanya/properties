@@ -7,7 +7,7 @@
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
-import MainComponent from './components/MainComponent.vue'
+import MainComponent from './views/MainComponent.vue'
 
 export default {
   name: 'App',
