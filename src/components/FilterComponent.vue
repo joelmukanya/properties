@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="d-flex flex-wrap bg-gradient">
+    <div class="d-flex flex-wrap bg-gradient">
         <div>
             <select v-model="types">
                 <option value="House">House</option>
@@ -19,27 +19,30 @@
         </div>
         <div>
             <select v-model="bedrooms">
-                <option value="house">House</option>
-                <option value="house">House</option>
-                <option value="house">House</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5+</option>
             </select>
         </div>
         <div>
             <select v-model="bathrooms">
-                <option value="house">House</option>
-                <option value="house">House</option>
-                <option value="house">House</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5+</option>
             </select>
         </div>
         <div>
             <select v-model="price">
-                <option value="house">House</option>
-                <option value="house">House</option>
-                <option value="house">House</option>
+                <option value="3000">0-3000</option>
+                <option value="5000">3000 - 7000</option>
+                <option value="7000">7000 - more</option>
             </select>
         </div>
-    </div> -->
-    <p>Hello There; this is my filter component</p>
+    </div>
 </template>
 
 <script>
