@@ -1,7 +1,6 @@
 <template>
     <div class="container-md min-vh-100 my-3">
         <h2 class="display-2 text-center">Admin Page</h2>
-
         <table class="table table-sucess table-hover table-striped-columns">
             <thead>
                 <tr>

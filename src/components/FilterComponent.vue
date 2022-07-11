@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-wrap bg-gradient">
+    <div class="d-flex flex-wrap bg-light">
         <div>
             <select v-model="types">
                 <option value="House">House</option>

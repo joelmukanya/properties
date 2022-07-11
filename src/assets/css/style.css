@@ -2,7 +2,7 @@
 /* root : define some custom variables*/
 :root {
     --grayBgColor: rgba(93, 97, 100, .4);
-    --boxShadow: 2vw 2vw 2vw rgba(137, 146, 144, 0.5); 
+    --boxShadow: 2vw .5vw 2vw white; 
     --primaryFontColor: white;
     --secFontColor: dark;
     --primaryBgColor: black;
@@ -22,9 +22,17 @@
 /* nav-link */
 .nav-link {
     color: var(--primaryFontColor);
+    line-height: 20px;
 }
 .nav-link:hover {
-    box-shadow: var(--boxShadow);
+    box-shadow: 2vw 1vw 1vw var(--boxShadow);
+}
+/* When link is active */
+a.router-link-exact-active {
+    color: whitesmoke;
+    background-color: rgba(47, 44, 44, 0.6);
+    border-radius: 20px;
+    border-bottom: 2px solid var(--boxShadow);
 }
 /* On scroll, change the background color of the header component.*/
 .headerBgColor {
@@ -37,6 +45,10 @@
 table img {
     width: 20vw;
     object-fit: cover;
+}
+/* v-cloak */
+[v-cloak] {
+    display: none;
 }
 /* Devices with 600px or less are targeted.  */
 @media screen and (max-width: 600px) {
